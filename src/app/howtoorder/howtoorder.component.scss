@@ -1,0 +1,39 @@
+.main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    >h2 {
+        font-size: 80px;
+        color: #9F0908;
+        padding: 70px 0;
+    }
+
+    .order-images {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        height: 300px;
+    
+        img {
+            width: 120px;
+            padding-bottom: 12px;
+        }
+        >div {
+            display: flex;
+            flex-direction: column;
+            width: 128px;
+            text-align: center;
+        }
+    
+        span {
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+        }
+    }
+}
+
+

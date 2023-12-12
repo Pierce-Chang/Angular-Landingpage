@@ -1,0 +1,29 @@
+.containercontact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    >h2 {
+        font-size: 80px;
+        color: #9F0908;
+        padding: 70px 0;
+    }
+
+    >.locationcontainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    >.adress {
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+}
+
+
