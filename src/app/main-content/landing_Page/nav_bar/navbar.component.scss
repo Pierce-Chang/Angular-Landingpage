@@ -4,10 +4,10 @@
     background-color: $darkred;
 }
 
-@mixin dFlex() {
+@mixin dFlex($jc, $ai) {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: $jc;
+    align-items: $ai;
 }
 
 nav {
@@ -42,7 +42,7 @@ a {
 }
 
 .phone_btn {
-    @include dFlex();
+    @include dFlex(center, center);
     @include borderStyling();
     padding: 4px;
     border-radius: 8px;
